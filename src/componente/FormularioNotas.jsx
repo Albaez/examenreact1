@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const App = () => {
+const FormularioNotas = () => {
   const [nota1, setNota1] = useState('');
   const [nota2, setNota2] = useState('');
   const [nota3, setNota3] = useState('');
@@ -80,4 +80,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default FormularioNotas;
